@@ -1,8 +1,4 @@
-fn main() {
-    println!("20:01:27");
-}
-
-fn find_sum(arr: &Vec<i32>) -> Option<(i32, usize, usize)> {
+pub fn find_sum(arr: &Vec<i32>) -> Option<(i32, usize, usize)> {
     if arr.len() == 0 {
         return None;
     }
